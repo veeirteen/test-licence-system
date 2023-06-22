@@ -26,6 +26,6 @@ function pay() {
   if (activ[ue] == 0) {
     activ[ue] = 1;
     console.log("payed");
-    console.log("your code is " + codes[ue]);
+    return code[ue];
   }
 }
